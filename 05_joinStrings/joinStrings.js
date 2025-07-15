@@ -17,7 +17,8 @@ let birthYear = 1947;
 let fullName = firstName + " " + lastName;
 let age = thisYear - birthYear;
 // let greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
-let greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
+// let greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
+let greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
 
 
 
